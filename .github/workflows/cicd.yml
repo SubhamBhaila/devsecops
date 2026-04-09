@@ -27,7 +27,7 @@ uses: actions/setup-node@v3
 
       # Install dependencies
       - name: Install dependencies
-        run: npm ci
+        run: npm install
 
         # Run Snyk vulnerability scan
       - name: Run Snyk to check for vulnerabilities
